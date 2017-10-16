@@ -50,7 +50,7 @@ export default class RateCalculator extends React.Component {
 				  		value={this.state.hours}
 				  		min={1}
 				  		max={8} 
-				  		onChange={this.handleChanges.bind(this)} />
+				  		onChange={this.updateHours.bind(this)} />
 
 						<Output id="total" label="Hourly rate: " value={totalCalc.toFixed(2)} />
 					</form>

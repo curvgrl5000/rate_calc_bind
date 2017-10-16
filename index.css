@@ -19,9 +19,9 @@ body {
     opacity: 1;
     -webkit-transition: 1s opacity cubic-bezier(0.455, 0.03, 0.515, 0.955);
     transition: 1s opacity cubic-bezier(0.455, 0.03, 0.515, 0.955);
-    background: #E3C205;
+    background: #05e3d3;
     background: -webkit-radial-gradient(center ellipse, #fad608 0%, #e3c205 100%);
-    background: radial-gradient(ellipse at center, #fad608 0%, #e3c205 100%);
+    background: radial-gradient(ellipse at center, #05e3d3 0%, #07b4a7 100%);
 }
 
  section.content_block {
