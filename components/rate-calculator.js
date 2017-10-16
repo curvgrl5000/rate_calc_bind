@@ -11,16 +11,6 @@ export default class RateCalculator extends React.Component {
 			dayRate : 250,
 			hours : 8
 		}
-		this.handleChanges = this.handleChanges.bind(this);
-	}
-
-	handleChanges({ target }) {
-  	this.setState({
-    	[target.id]: target.value,
-  	});
-  	var clickedId = target.id;
-    console.log(clickedId);
-    alert("It works! You clicked " + clickedId)
 	}
 
 	updateRate(dayRate){
